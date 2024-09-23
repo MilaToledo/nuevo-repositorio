@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 4px; 
+    background-image: url('images/fondo.jpg'); /* la ruta de la imagen */
+    background-size: 100%; /* para que la imagen cubra toda la pantalla */
+    background-position: center; /* para centrar la imagen */
+}
+
+
+.bungee-tint-regular, header {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rowdies-light, nav a, .hero, main h2, main h3, .menu-item, .menu, footer {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+header {
+    background-color: #ffc400;
+    color: rgb(138, 58, 26);
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    font-size: 3rem;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: rgb(180, 27, 62);
+    padding: 30px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.hero {
+    color: rgb(138, 58, 26);
+    font-size: 20px; 
+    background-color: #be6a3236;
+    border-radius: 15px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero a {
+    background-color: #ff6600; /* color de fondo */
+    color: rgba(109, 11, 11, 0.555); /* color del texto */
+    font-size: 18px; /* tamaño del texto */
+    padding: 10px 20px; /* espaciado interno (padding) */
+    border: 2px solid #ff6600; /* borde con color */
+    border-radius: 10px;
+}
+
+main  {
+    font-size: 26px;
+    color: rgb(138, 58, 26);
+    padding: 10px 20px; /* espaciado interno (padding) */
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #be6a3236;
+}
+
+.menu {
+    text-align: center;
+    color: rgb(138, 58, 26);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+    vertical-align: top;
+    color: rgb(138, 58, 26);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item img {
+    width: 25%; 
+    height: 50%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+    background-color: #ff6600; /* color de fondo */
+    color: rgba(109, 11, 11, 0.555); /* color del texto */
+    font-size: 18px; /* tamaño del texto */
+    padding: 10px 20px; /* espaciado interno (padding) */
+    border: 2px solid #ff6600; /* bborde con color */
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+footer {
+    background-color: #33333369;
+    color: rgb(34, 16, 16);
+    padding: 15px;
+    border-radius: 10%;
+   /* position: fixed;  (hace que se mueva)*/
+   /* width: 100%;  (ocupa toda la pantalla. todavia no es la idea)*/
+    
+}
+
